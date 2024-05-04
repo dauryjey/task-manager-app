@@ -4,7 +4,7 @@ interface TaskColLayoutProps {
 
 export const TaskColLayout = ({ children }: TaskColLayoutProps) => {
 	return (
-			<main className="flex flex-col md:flex-row bg-neutral-700 w-full rounded-xl p-4">
+			<main className="flex flex-col flex-wrap md:flex-row bg-neutral-700 w-full rounded-xl p-4">
 					{children}
 			</main>
 	)

@@ -6,7 +6,7 @@ interface ColListProps {
 
 export const ColList = ({ colTitle }: ColListProps) => {
   return (
-    <div>
+    <div className="flex flex-col gap-4">
       {colTitle.map((title, idx) => (
         <TaskCol title={title} key={idx} />
       ))}
