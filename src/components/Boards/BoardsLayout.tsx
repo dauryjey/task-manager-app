@@ -4,6 +4,6 @@ interface BoardsLayoutProps {
 
 export const BoardsLayout = ({ children }: BoardsLayoutProps) => {
   return (
-    <aside className="flex flex-col gap-2 bg-neutral-800 w-full rounded-xl p-4">{children}</aside>
+    <aside className="flex flex-col gap-2 bg-neutral-100 dark:bg-neutral-800 w-full rounded-xl p-4">{children}</aside>
   )
 }

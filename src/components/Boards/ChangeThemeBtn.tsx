@@ -15,7 +15,7 @@ export const ChangeThemeBtn = ({ theme, setTheme }: ChangeThemeBtnProps) => {
   }
 
   return (
-    <article className="flex mt-auto font-medium justify-around bg-neutral-600 rounded-xl py-1 justify-self-end">
+    <article className="flex mt-auto font-medium justify-around bg-white dark:bg-neutral-600 rounded-xl py-1 justify-self-end">
       <ThemeMode
         changeTheme={handleThemeChange}
         theme={theme}

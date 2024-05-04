@@ -7,7 +7,7 @@ interface ThemeModeProps {
 
 export const ThemeMode = ({ theme, mode, icon, changeTheme }: ThemeModeProps) => {
 	const isDark = theme && mode === "Dark" && "bg-neutral-700"
-	const isLight = !theme && mode === "Light" && "bg-neutral-700"
+	const isLight = !theme && mode === "Light" && "bg-neutral-400 text-white"
 	
 	return (
 		<span
