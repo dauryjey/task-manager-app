@@ -5,6 +5,7 @@ import { ChangeThemeBtn } from "./components/ChangeThemeBtn"
 import { TaskColLayout } from "./components/TaskColLayout"
 import { colTitle } from "./const/ColTitle"
 import { useEffect, useState } from "react"
+import { BoardsLayout } from "./components/BoardsLayout"
 
 function App() {
   const [theme, setTheme] = useState<boolean>(true)
@@ -26,11 +27,11 @@ function App() {
 
   return (
     <Layout>
-      <TaskColLayout>
+      <BoardsLayout>
         <p className="font-medium mb-2">Boards</p>
         <AddNewBoardButton />
         <ChangeThemeBtn theme={theme} setTheme={setTheme} />
-      </TaskColLayout>
+      </BoardsLayout>
       <TaskColLayout>
         <ColList colTitle={colTitle} />
       </TaskColLayout>
