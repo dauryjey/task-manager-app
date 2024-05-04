@@ -6,7 +6,7 @@ interface TaskColProps {
 
 export const TaskCol = ({ title }: TaskColProps) => {
   return (
-    <div>
+    <div className="md:w-[25%]">
       <Status text={title}/>
     </div>
   )

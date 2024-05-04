@@ -1,11 +1,11 @@
-import { AddNewBoardButton } from "./components/AddNewBoardButton"
-import { ColList } from "./components/ColList"
+import { AddNewBoardButton } from "./components/Boards/AddNewBoardButton"
+import { ColList } from "./components/Tasks/ColList"
 import { Layout } from "./components/Layout"
-import { ChangeThemeBtn } from "./components/ChangeThemeBtn"
-import { TaskColLayout } from "./components/TaskColLayout"
+import { ChangeThemeBtn } from "./components/Boards/ChangeThemeBtn"
+import { TaskColLayout } from "./components/Tasks/TaskColLayout"
 import { colTitle } from "./const/ColTitle"
 import { useEffect, useState } from "react"
-import { BoardsLayout } from "./components/BoardsLayout"
+import { BoardsLayout } from "./components/Boards/BoardsLayout"
 
 function App() {
   const [theme, setTheme] = useState<boolean>(true)

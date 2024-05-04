@@ -1,7 +1,7 @@
 import { MdDarkMode } from "react-icons/md"
 import { MdLightMode } from "react-icons/md"
 import { ThemeMode } from "./ThemeMode"
-import { changeTheme } from "../utils/changeTheme"
+import { changeTheme } from "../../utils/changeTheme"
 
 interface ChangeThemeBtnProps {
   theme: boolean
